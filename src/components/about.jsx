@@ -1,17 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const About = () => {
-    return (
-        <div>
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-            </ul>
-            <h1>This s sample react router program</h1>
-
-        </div>
-    )
+  return (
+    <div>
+        <h1>About</h1>
+        <p>This is a sample React Router program.</p>
+    </div>
+  )
 }
 
 export default About
