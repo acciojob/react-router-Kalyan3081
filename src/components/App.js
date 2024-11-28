@@ -6,7 +6,7 @@ import Home from './home'
 import About from './about'
 const App = () => {
   return (
-    <div>
+ 
         {/* Do not remove the main div */}
     <BrowserRouter>
             <Routes>
@@ -14,7 +14,7 @@ const App = () => {
                 <Route path='/about' element={<About />}></Route>
             </Routes>
         </BrowserRouter>
-    </div>
+
   )
 }
 
